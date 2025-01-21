@@ -33,7 +33,7 @@ class GastosTest {
         Gastos gastos = new Gastos();
 
         gastos.setTotalGastos(300.0);
-        assertEquals(300.0, gastos.getTotalGastos());  // Verificamos que el setter funcione correctamente
+        assertEquals(300.0, gastos.getTotalGastos());
     }
 
     @Test
